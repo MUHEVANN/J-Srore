@@ -1,0 +1,13 @@
+* {
+    font-family: "Big Shoulders Display", cursive;
+}
+
+.hero1 {
+    background-image: url("foto/hero1.svg");
+}
+.hero2 {
+    background-image: url("foto/hero2.svg");
+}
+.hero3 {
+    background-image: url("foto/jacket\ 1.svg");
+}
