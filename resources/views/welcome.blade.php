@@ -46,7 +46,7 @@
     <div class="w-full h-auto px-[80px] grid gap-5 grid-cols-4 mt-5  ">
         @foreach ($data as $item)
             <div class="w-[329px]  h-auto border flex flex-col">
-                <a href="{{ url('home/' . $item->id) }}"><img src="{{ asset('foto/' . $item->foto) }}" alt=""
+                <a href="{{ url('user/' . $item->id) }}"><img src="{{ asset('foto/' . $item->foto) }}" alt=""
                         class="w-full h-[370px] object-cover" /></a>
                 <div class="flex justify-between p-5 items-center">
                     <div>
